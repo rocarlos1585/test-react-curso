@@ -1,0 +1,30 @@
+:root{
+  --white: #FFFFFF;
+  --light-blue: #168AF2;
+  --light-grey: #E5E5E5;
+  --blue: #157AFC;
+  --blue-link: #1089FF;
+  --black: #000000;
+  --grey: #6E7C7C;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  align-items: center;
+  background-color: var(--light-blue);
+  display: flex;
+  justify-content: center;
+}
+
+.container-carrera{
+	background: var(--white);
+	border-radius: 15px;
+	height: 300px;
+	margin: 300px 0px;
+	width: 400px;
+}
