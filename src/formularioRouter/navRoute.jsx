@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import App from "../App";
 
-export default function navRoute(){
+export default function NavRoute(){
     return(
         <BrowserRouter>
             <div>
