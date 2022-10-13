@@ -1,0 +1,58 @@
+
+
+body{
+    background-color: blue;
+}
+
+#h1{
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+#form{
+
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+#label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+#input{
+    display: block;
+    margin-bottom: 20px;
+    width: 340px;
+}
+
+#button{
+    color: white;
+    background-color: blue;
+    width: 340px;
+    height: 40px;
+    border-radius: 10px solid white ;
+}
+
+#p{
+    margin-top: 10px;
+    text-align: right;
+}
+
+#a{
+    margin-right: 80px;
+    text-decoration: none;
+}
+
+.div1{
+    width: 500px;
+    height: 570px;
+    top: 10px;
+    margin: 10px auto ;
+    border-radius: 15px ;
+    background-color: white;
+}
