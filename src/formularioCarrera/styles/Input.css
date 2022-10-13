@@ -1,0 +1,18 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  text-align: left;
+  width: 90%;
+}
+
+.label-input {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+.input-field {
+  font-size: 16px;
+  padding: .3rem;
+}

@@ -1,8 +1,18 @@
+import React, { useState } from 'react'
 import './style-carrera.css'
+import { Input } from './components/Input';
+import { Button } from './components/Button';
 
 const Index = () => {
-
-    return <div className="container-carrera"></div>;
+    const [dataForm, setDataForm] = useState({
+        nombre: '',
+        duracion: 0,
+      });
+    return <div className="container-carrera">
+        <Input label="Nombre" type="text" placeholder="Nombre de la carrera" setData={setDataForm} data={dataForm} />
+        <Input label="Duracion" type="number" placeholder="Duracion carrera" setData={setDataForm} data={dataForm} />
+        <Button text="Enviar" data={dataForm} />
+    </div>;
     
 }
 
